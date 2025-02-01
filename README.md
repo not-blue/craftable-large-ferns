@@ -1,5 +1,5 @@
 # Craftable Large Ferns
-Craft Large Ferns in Minecraft - Data Pack
+Craft large ferns from small ferns and bone meal. Duplicate large and small ferns in the crafting table with bone meal.
 
 ## License
 
