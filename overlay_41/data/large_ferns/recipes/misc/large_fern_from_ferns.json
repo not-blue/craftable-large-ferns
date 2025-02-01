@@ -7,14 +7,15 @@
     "xy"
   ],
   "key": {
-    "x": [
-      "minecraft:fern"
-    ],
-    "y": [
-      "minecraft:bone_meal"
-    ]
+    "x": {
+      "item": "minecraft:fern"
+    },
+    "y": {
+      "item": "minecraft:bone_meal"
+    }
   },
   "result": {
-    "id": "minecraft:large_fern"
+    "id": "minecraft:large_fern",
+    "count": 1
   }
 }

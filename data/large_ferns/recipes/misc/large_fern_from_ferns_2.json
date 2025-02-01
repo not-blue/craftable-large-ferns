@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "large_fern",
+  "category": "misc",
+  "pattern": [
+    " x",
+    "yx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:fern"
+    },
+    "y": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "minecraft:large_fern",
+    "count": 1
+  }
+}

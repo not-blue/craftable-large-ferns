@@ -1,21 +1,18 @@
 {
   "pack": {
-    "pack_format": 48,
+    "pack_format": 15,
     "supported_formats": {
       "min_inclusive": 15,
-      "max_inclusive": 999
+      "max_inclusive": 41
     },
     "description": "Craft large ferns"
   },
   "overlays": {
     "entries": [
       {
-        "formats": {
-          "min_inclusive": 49,
-          "max_inclusive": 999
-        },
-        "directory": "overlay_57"
+        "directory": "overlay_41",
+        "formats": 41
       }
     ]
-}
+  }
 }

@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:large_fern"
+      },
+      "title": "Craftable Large Ferns",
+      "description": "Craft large ferns from small ferns and bone meal. Duplicate large and small ferns with bone meal.",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "global:notblue",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

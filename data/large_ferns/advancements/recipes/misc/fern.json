@@ -1,10 +1,15 @@
 {
-  "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fern_duplication_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
+    "has_fern": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe": "large_ferns:fern"
+        "items": [
+          {
+            "items": [
+              "minecraft:fern"
+            ]
+          }
+        ]
       }
     },
     "has_large_fern_duplication_recipe": {
@@ -13,10 +18,10 @@
         "recipe": "large_ferns:large_fern"
       }
     },
-    "has_large_fern_crafting_recipe_2": {
+    "has_fern_duplication_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "large_ferns:large_fern_from_ferns_2"
+        "recipe": "large_ferns:fern"
       }
     },
     "has_large_fern_crafting_recipe": {
@@ -25,14 +30,10 @@
         "recipe": "large_ferns:large_fern_from_ferns"
       }
     },
-    "has_fern": {
-      "trigger": "minecraft:inventory_changed",
+    "has_large_fern_crafting_recipe_2": {
+      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "items": [
-          {
-            "items": "minecraft:fern"
-          }
-        ]
+        "recipe": "large_ferns:large_fern_from_ferns_2"
       }
     },
     "has_large_fern": {
@@ -40,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:large_fern"
+            "items": [
+              "minecraft:large_fern"
+            ]
           }
         ]
       }
@@ -48,12 +51,12 @@
   },
   "requirements": [
     [
-      "has_large_fern_crafting_recipe",
+      "has_fern",
+      "has_large_fern",
       "has_fern_duplication_recipe",
       "has_large_fern_duplication_recipe",
-      "has_large_fern_crafting_recipe_2",
-      "has_fern",
-      "has_large_fern"
+      "has_large_fern_crafting_recipe",
+      "has_large_fern_crafting_recipe_2"
     ]
   ],
   "rewards": {
@@ -63,6 +66,5 @@
       "large_ferns:large_fern_from_ferns",
       "large_ferns:large_fern_from_ferns_2"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
