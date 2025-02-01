@@ -59,9 +59,9 @@
   "rewards": {
     "recipes": [
       "large_ferns:fern",
-      "plant_duplication:large_fern",
-      "plant_duplication:large_fern_from_ferns",
-      "plant_duplication:large_fern_from_ferns_2"
+      "large_ferns:large_fern",
+      "large_ferns:large_fern_from_ferns",
+      "large_ferns:large_fern_from_ferns_2"
     ]
   }
 }
