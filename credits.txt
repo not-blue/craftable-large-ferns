@@ -1,5 +1,5 @@
 Pack name:  Craftable Large Ferns
-Pack URL:   
+Pack URL:   https://modrinth.com/datapack/craftable-large-ferns
 Author:     Nicole / notblue / nicoleisnotblue
 Author URL: https://modrinth.com/user/notblue   
 
