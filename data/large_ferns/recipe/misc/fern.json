@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:fern"
-    ],
-    [
-      "minecraft:bone_meal"
-    ]
+    {
+      "item": "minecraft:fern"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
   ],
   "result": {
     "id": "minecraft:fern",

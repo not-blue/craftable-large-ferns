@@ -8,10 +8,14 @@
   ],
   "key": {
     "x": [
-      "minecraft:fern"
+      {
+        "item": "minecraft:fern"
+      }
     ],
     "y": [
-      "minecraft:bone_meal"
+      {
+        "item": "minecraft:bone_meal"
+      }
     ]
   },
   "result": {

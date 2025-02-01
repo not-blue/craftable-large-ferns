@@ -3,15 +3,19 @@
   "group": "large_fern",
   "category": "misc",
   "pattern": [
-    " x",
-    "yx"
+    "x ",
+    "xy"
   ],
   "key": {
     "x": [
-      "minecraft:fern"
+      {
+        "item": "minecraft:fern"
+      }
     ],
     "y": [
-      "minecraft:bone_meal"
+      {
+        "item": "minecraft:bone_meal"
+      }
     ]
   },
   "result": {

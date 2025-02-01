@@ -6,10 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:fern",
-              "minecraft:large_fern"
-            ]
+            "items": "minecraft:fern"
           }
         ]
       }
@@ -26,34 +23,45 @@
         "recipe": "large_ferns:large_fern"
       }
     },
-    "has_large_fern_duplication_recipe_2": {
+    "has_large_fern_crafting_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "large_ferns:large_fern_from_ferns"
+      }
+    },
+    "has_large_fern_crafting_recipe_2": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "large_ferns:large_fern_from_ferns_2"
       }
     },
-    "has_large_fern_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
+    "has_large_fern": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe": "large_ferns:large_fern_from_ferns"
+        "items": [
+          {
+            "items": "minecraft:large_fern"
+          }
+        ]
       }
     }
   },
   "requirements": [
     [
-      "has_large_fern_recipe",
+      "has_large_fern_crafting_recipe",
       "has_fern",
       "has_fern_duplication_recipe",
       "has_large_fern_duplication_recipe",
-      "has_large_fern_duplication_recipe_2"
+      "has_large_fern_crafting_recipe_2",
+      "has_large_fern"
     ]
   ],
   "rewards": {
     "recipes": [
       "large_ferns:fern",
-      "large_ferns:large_fern",
-      "large_ferns:large_fern_from_ferns",
-      "large_ferns:large_fern_from_ferns_2"
+      "plant_duplication:large_fern",
+      "plant_duplication:large_fern_from_ferns",
+      "plant_duplication:large_fern_from_ferns_2"
     ]
   }
 }
