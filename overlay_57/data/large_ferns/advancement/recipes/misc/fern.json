@@ -1,16 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fern": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:fern"
-          }
-        ]
-      }
-    },
     "has_fern_duplication_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -35,6 +25,16 @@
         "recipe": "large_ferns:large_fern_from_ferns"
       }
     },
+    "has_fern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fern"
+          }
+        ]
+      }
+    },
     "has_large_fern": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -49,10 +49,10 @@
   "requirements": [
     [
       "has_large_fern_crafting_recipe",
-      "has_fern",
       "has_fern_duplication_recipe",
       "has_large_fern_duplication_recipe",
       "has_large_fern_crafting_recipe_2",
+      "has_fern",
       "has_large_fern"
     ]
   ],
