@@ -1,33 +1,15 @@
 {
   "pack": {
-    "pack_format": 48,
-    "supported_formats": {
-      "min_inclusive": 48,
-      "max_inclusive": 95
-    },
-    "min_format": [48, 0],
-    "max_format": [95, 0],
-    "description": "Craft large ferns"
+    "min_format": [101, 0],
+    "max_format": [999, 0],
+    "description": "Craft large ferns, duplicate all ferns"
   },
   "overlays": {
     "entries": [
       {
-        "formats": {
-          "min_inclusive": 49,
-          "max_inclusive": 95
-        },
-        "min_format": [49, 0],
-        "max_format": [95, 0],
-        "directory": "overlay_57"
-      },
-      {
-        "formats": {
-          "min_inclusive": 71,
-          "max_inclusive": 95
-        },
-        "min_format": [71, 0],
-        "max_format": [95, 0],
-        "directory": "overlay_71"
+        "min_format": [121, 0],
+        "max_format": [999, 0],
+        "directory": "overlay_121"
       }
     ]
 }
